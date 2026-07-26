@@ -12,9 +12,9 @@ spec:
       labels:
         app: gcp
     spec:
-      container: 
+      containers: 
       - name: gcp-devops-gke
-        image: gcr.io/spacelift-project/gcpdevops:lastest
+        image: gcr.io/spacelift-project/gcpdevops:latest
         ports:
         - containerPort: 5000
         env: 
